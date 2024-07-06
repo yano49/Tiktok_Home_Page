@@ -1,0 +1,65 @@
+body {
+    background-color: #f0f2f5;
+}
+
+.navbar {
+    background-color: white;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.navbar-brand img {
+    margin-right: 10px;
+}
+
+.navbar-icons a {
+    margin-left: 20px;
+}
+
+.sidebar {
+    background-color: white;
+    border-right: 1px solid #e6e6e6;
+    height: calc(100vh - 56px);
+    padding-top: 15px;
+    position: fixed;
+    top: 56px;
+    left: 0;
+    width: 220px;
+}
+
+.sidebar .nav-link img {
+    margin-right: 10px;
+}
+
+.main-content {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+.video-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.video-thumbnail {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.video-info h5 {
+    margin-top: 10px;
+}
+
+.video-actions {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.video-actions button {
+    display: flex;
+    align-items: center;
+}
